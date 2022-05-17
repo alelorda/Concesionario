@@ -30,4 +30,3 @@ def insertarAuto():
     detalle = input('Ingrese los detalles')
     auto_ingresado = Auto(marca, modelo,  km, detalle)
     agregaAutos(auto_ingresado)
-    print(auto_ingresado)
